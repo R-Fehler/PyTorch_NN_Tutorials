@@ -30,8 +30,8 @@ print('running on {}'.format(device))
 # Hyperparameters
 in_size = 28*28
 num_of_classes = 10
-learning_rate = 0.01
-batch_size = 256
+learning_rate = 0.001
+batch_size = 64
 num_epochs = 16
 
 # Load Data
